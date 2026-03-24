@@ -2,7 +2,7 @@ import { useState } from "react";
 import { X } from "lucide-react";
 import { motion } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import artwork1 from "./assets/363cd6de4e6f4a1aa2572a947d8876e01eacf296.png";
+import artwork1 from "../assets/363cd6de4e6f4a1aa2572a947d8876e01eacf296.png";
 import artwork2 from "../assets/29f640e7fb2c438c24ecb473de6cac56e20addc1.png";
 import artwork3 from "../assets/e026077a58300885667696daa13c5336dd449756.png";
 import artwork4 from "../assets/914c2df689d5e4c2afda1e661caf5f07fb6ca825.png";
