@@ -1,7 +1,7 @@
 import { Palette, Award, BookOpen, Heart } from "lucide-react";
 import { motion } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import aboutImage from "figma:asset/830d61ba54a295b05d709d575ced1de615d3bbbe.png";
+import aboutImage from "./assets/830d61ba54a295b05d709d575ced1de615d3bbbe.png";
 
 export function About() {
   return (
