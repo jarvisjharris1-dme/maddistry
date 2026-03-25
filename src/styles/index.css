@@ -1,3 +1,7 @@
+@import "tailwindcss"; /* Direct import for Tailwind 4 */
 @import './fonts.css';
-@import './tailwind.css';
 @import './theme.css';
+
+/* Note: You no longer need to import './tailwind.css' 
+   separately if it only contained the old @tailwind directives.
+*/
