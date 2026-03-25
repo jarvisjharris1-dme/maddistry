@@ -1,4 +1,13 @@
-@import 'tailwindcss' source(none);
-@source '../**/*.{js,ts,jsx,tsx}';
+@import "tailwindcss";
 
+/* Point exactly to your source files to prevent scanning node_modules */
+@source "./**/*.{js,ts,jsx,tsx}";
+
+/* If tw-animate-css is a standard CSS file, keep it. 
+   If it was a Tailwind plugin, you might need to move its 
+   logic into a @theme block below. */
 @import 'tw-animate-css';
+
+@theme {
+  /* Add any custom animations here if tw-animate-css fails to load */
+}
